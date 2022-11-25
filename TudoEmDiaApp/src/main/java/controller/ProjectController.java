@@ -20,7 +20,7 @@ public class ProjectController {
 		PreparedStatement stmt = null;
 
 		try {
-			// Cria uma conex�o com o banco
+			// Cria uma conex�o com o banco dados
 			conn = ConnectionFactory.getConnection();
 			// Cria um PreparedStatment, classe usada para executar a query
 			stmt = conn.prepareStatement(sql);
